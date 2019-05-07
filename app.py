@@ -1,10 +1,11 @@
 from flask import Flask, render_template, jsonify, request
+from flask_cors import CORS
 import os
 import json
 import AmazonLoadModel
 
 app = Flask(__name__)
-
+cors = CORS(app, resources={r"/*": {"origins": "*"}})  # remove cors issue with localhost
 
 @app.route("/products/", methods=['GET'])
 def get_products():
