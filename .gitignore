@@ -1,4 +1,5 @@
 /.idea
-/data
 /venv
 /__pycache__
+/data/Datasets/
+/data/Preprocessed/
