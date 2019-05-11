@@ -1,7 +1,5 @@
 import Helpers
-import json
-import numpy as np
-from functools import reduce
+
 
 full_metadata_df = Helpers.get_df('data/Datasets/meta_Electronics.json.gz')
 

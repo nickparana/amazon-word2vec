@@ -2,3 +2,5 @@
 /venv
 /__pycache__
 /env
+/static
+!**/static/data/word2vec.model.*
