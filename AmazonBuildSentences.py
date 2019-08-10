@@ -145,7 +145,7 @@ Helpers.remove_all_from_folder('data/Preprocessed/buy_after_viewing/')
 Helpers.remove_all_from_folder('data/Preprocessed/by_categories/')
 Helpers.remove_all_from_folder('data/Preprocessed/by_reviewer_id/')
 
-for chunk in pd.read_csv('data/Datasets/merged_meta_electronics_reviews.csv', chunksize=chunksize,
+for chunk in pd.read_csv('data/Datasets/merged_amazon_meta_reviews.csv', chunksize=chunksize,
                          dtype={"reviewerID": str, "asin": str, "overall": float, "title": str, "categories": str,
                                 "related": str}):
     start, end = process(chunk, start, end)

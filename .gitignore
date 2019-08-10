@@ -3,4 +3,4 @@
 /__pycache__
 /env
 /static
-!**/static/data/word2vec.model.*
+# !**/static/data/word2vec.model.*

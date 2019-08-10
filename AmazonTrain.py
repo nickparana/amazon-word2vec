@@ -1,3 +1,5 @@
+# Author: Nicolás Francisco Moguilner Reh <nicolas.moguilner@endava.com>
+
 from gensim.models import Word2Vec
 import Helpers
 
